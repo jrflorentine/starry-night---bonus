@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=".k_c}u8Q!$I/w=vy1:Zq">index</variable></variables><block type="device_forever" id="ZGj(mBT}N,k*^v|i#9c?" x="0" y="0"><statement name="HANDLER"><block type="device_while" id="(yuf$h+~IK)}}E]wf)#V"><value name="COND"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="IQ{{9tl`8=Uqz@XI?MQI"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="Du9G!Qe$j1$zN.v^@jHL"/></value><value name="B"><shadow type="math_number" id="2)18;3dIlEtvt4YoJr.X"><field name="NUM">1</field></shadow></value></block></value><statement name="DO"><block type="device_show_leds" id="B`+KFMEss8UxNXpn.]1H"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="24n:*i:w3v34;S`_4C!c"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="eZVbr5W}UBNxe@dw3HT4"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="wiiJ)kqr:e;y@Q4LIVWE"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        # . # . #
+        `</field><next><block type="device_show_leds" id="ZDJ!*]jA2EQSr~vIMXuM"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="vxYVLT=1BYT!m78vioj{"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="CWKw}jvFbF#gO*K7X/6+"><value name="pause"><shadow type="timePicker" id="rwsaZhmiP3KLVlwGmf4}"><field name="ms">100</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></statement></block></xml>
